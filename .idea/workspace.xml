@@ -31,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,6 +39,7 @@
   <component name="ProjectId" id="1P4oMitojVnnC0BGh8iQu0WGSV8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -88,7 +90,7 @@
       <workItem from="1565295325628" duration="4005000" />
       <workItem from="1565317026786" duration="1982000" />
       <workItem from="1565358646002" duration="41334000" />
-      <workItem from="1565527352184" duration="19853000" />
+      <workItem from="1565527352184" duration="26521000" />
     </task>
     <servers />
   </component>

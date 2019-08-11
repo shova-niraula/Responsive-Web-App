@@ -127,8 +127,9 @@
                     <li>
                         <span class="opener">Mindfulness Team</span>
                         <ul>
-                            <li><a href="#">Keynote Speakers </a></li>
-                            <li><a href="#">Other Speakers</a></li>
+                            <li><a href="speakers.html">Keynote Speakers </a></li>
+                            <li><a href="otherspeakers.html">Other Speakers</a></li>
+                            <li><a href="Team.html">Team</a></li>
                         </ul>
                     </li>
                     <li><a href="registration.html">Registration</a></li>
