@@ -1,14 +1,11 @@
 function checkUncheck() {
-    alert("hi");
-    document.querySelectorAll("INPUT[type='radio']").forEach(function (rd) {
-        rd.addEventListener("mousedown", function () {
-            if (this.checked) {
-                this.onclick = function () {
-                    this.checked = false
-                }
-            } else {
-                this.onclick = null
-            }
-        })
-    })
+    $("input:radio").on("click",function (e) {
+        var inp=$(this); //cache the selector
+        if (inp.is(".theone")) { //see if it has the selected class
+            inp.prop("checked",false).removeClass("theone");
+            return;
+        }
+        $("input:radio[name='"+inp.prop("name")+"'].theone").removeClass("theone");
+        inp.addClass("theone");
+    });
 }
